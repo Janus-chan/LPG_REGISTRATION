@@ -1,0 +1,43 @@
+body {
+  background-color: #d9e3f1;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+#main-content {
+  padding: 3rem;
+  background-color: azure;
+  box-shadow: 5px 10px 19px -1px rgba(0, 0, 0, 0.48);
+  -webkit-box-shadow: 5px 10px 19px -1px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: 5px 10px 19px -1px rgba(0, 0, 0, 0.48);
+}
+
+#main-content form button {
+  margin-top: 10%;
+}
+#sign-but {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+#feeds{
+    /* margin: 0px 30px; */
+    display: flex;
+    
+}
+
+/*  */
+.feeds-content  .form-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.feeds-content  .form-group button{
+    margin-top: 30px;
+}

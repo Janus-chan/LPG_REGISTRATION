@@ -1,0 +1,119 @@
+body {
+    background-color: #dde0e4;
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+  }
+  
+  #front-page {
+    height: 100vh;
+    width: 100vw;
+    background-color: d9e3f1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .front-content {
+    margin: 30px;
+    width: 70vw;
+    height: 80vh;
+    background-color: #d9e3f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 10px 19px -1px rgba(0, 0, 0, 0.48);
+    -webkit-box-shadow: 5px 10px 19px -1px rgba(0, 0, 0, 0.48);
+    -moz-box-shadow: 5px 10px 19px -1px rgba(0, 0, 0, 0.48);
+  }
+  .front-content img {
+    margin-top: 10px;
+    width: 90px;
+    height: 90px;
+  }
+  
+  .infos img {
+    width: 100px;
+  }
+  #sub-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  #sub-content a {
+    text-decoration: none;
+  }
+  
+  .infos {
+    /* border: 1px groove #a4a8ad; */
+    border-radius: 10%;
+    margin-top: 60px;
+    color: rgb(131, 134, 133);
+    background-color: #fbfcfd;
+    padding: 40px;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+  }
+  .infos:hover {
+    color: rgb(75, 77, 76);
+  }
+  
+  #booking-info {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  #booking-info form > div{
+  display: flex;
+  justify-self: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  }
+
+  .last-button{
+    margin-top: 10px;
+    max-width: 100px;
+    align-content: center;
+  }
+
+  #button-nxt{
+    background-color: #d9e3f100;
+    border: #d9e3f1 solid 0px ;
+  }
+
+  #button-nxt h4{
+     color: rgb(131, 134, 133);;
+  }
+
+  .infos:hover #button-nxt h4{
+    color: rgb(75, 77, 76);
+ }
+
+ #card-opt{
+   margin-top: 15px;
+ }
+ #card-opt label{
+  width: 200px;
+  padding: 0%;
+}
+ #card-opt > div{
+  display: inline-block;
+  padding: 0%;
+}
+
+ #card-opt img{
+  width: 20%;
+}
+
+#card-dets  span{
+  display: inline-block;
+}
+#card-dets span:nth-of-child(1){
+  margin-left: 10px;
+}
+
+
+#card-dets  {
+  margin: 25px 0px 10px 0px;
+}
