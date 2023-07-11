@@ -2,7 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 mongoose.connect(
-  "mongodb+srv://admin-janus:mongojanus@cluster0.tqqae.mongodb.net/gasDB"
+  "mongodb://127.0.0.1:27017/gasDB"
 );
 const app = express();
 let names;
